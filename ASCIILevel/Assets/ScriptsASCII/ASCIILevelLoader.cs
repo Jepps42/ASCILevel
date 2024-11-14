@@ -103,7 +103,7 @@ public class ASCIILevelLoader : MonoBehaviour
                         //Make a player gamerObject
                         newObject = Instantiate<GameObject>(player);
                         //check to see if we have a player already and if we do not, make this the player
-                        if (currentPlayer = null)
+                        if (currentPlayer == null)
                             currentPlayer = newObject;
                         //save this position to the startPos to use for resetting the player
                         startPos = new Vector2(x + xOffset, -y + yOffset);
@@ -148,5 +148,10 @@ public class ASCIILevelLoader : MonoBehaviour
         }
 
 
+    }
+
+    public void resetPlayer()
+    {
+        currentPlayer.transform.position = startPos;
     }
 }

@@ -1,6 +1,6 @@
-wwwwwwwwwwwwwwww-
-w-p---*----wwwwww
-w----------***--
-w--ww--*--*--www
-w---------------
-wwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwww---**
+w-p---*----wwwwww--*w
+w----------***--*wwww
+w--ww--*--*--www--**w
+w------------------ww
+wwwwwwwwwwwwwwww---**
