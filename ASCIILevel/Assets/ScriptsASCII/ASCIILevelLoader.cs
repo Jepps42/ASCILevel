@@ -142,7 +142,7 @@ public class ASCIILevelLoader : MonoBehaviour
 
                     //No matter what the new object is, set its postion based on the offsets
                     //And also the position in the file
-                    newObject.transform.position = new Vector3(x + xOffset, -y + yOffset, 0);
+                    newObject.transform.position = new Vector3(x/2 + xOffset, -y/2 + yOffset, 0);
                 }
             }
         }
